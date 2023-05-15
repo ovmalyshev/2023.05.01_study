@@ -1,10 +1,6 @@
 <?php
 namespace Speroteck\Task1\Controller\Index;
 
-use Magento\Framework\App\Action\Action;
-use Magento\Framework\App\Action\Context;
-use Magento\Framework\App\Action\HttpGetActionInterface;
-use Magento\Framework\View\Result\PageFactory;
 
 /**
  * Webkul Hello Landing page Index Controller.
