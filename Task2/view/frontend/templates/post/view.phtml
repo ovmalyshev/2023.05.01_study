@@ -1,0 +1,5 @@
+<?php /** @var Speroteck\Task2\Block\View $block */ ?>
+<h1><?php echo $block->getPost()->getTitle(); ?></h1>
+<p><?php echo $block->getPost()->getContent(); ?></p>
+
+<h2><a href="<?php echo $block->delCurrentPostUrl($block->getPost()->getId());?>"><?php echo "Clear current post"; ?></a></h2>
